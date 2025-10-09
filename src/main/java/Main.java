@@ -20,7 +20,7 @@ public class Main {
                 System.out.println("Указанный путь ведет к папке, а не к файлу.");
                 continue;
             }
-            // Если файл существует и это не папка.
+            // Если файл существует и это не папка
             System.out.println("Путь указан верно");
             fileCounter++;
             System.out.println("Это файл номер " + fileCounter);

@@ -12,7 +12,7 @@ public class Main {
             File file = new File(path);
             boolean fileExists = file.exists();
             boolean isDirectory = file.isDirectory();
-            // Если файл не существует или указан путь не к файлу
+            // Если файл не существует или указан путь не к файлу.
             if (!fileExists) {
                 System.out.println("Файл не существует.");
                 continue;
@@ -20,7 +20,7 @@ public class Main {
                 System.out.println("Указанный путь ведет к папке, а не к файлу.");
                 continue;
             }
-            // Если файл существует и это не папка
+            // Если файл существует и это не папка.
             System.out.println("Путь указан верно");
             fileCounter++;
             System.out.println("Это файл номер " + fileCounter);
